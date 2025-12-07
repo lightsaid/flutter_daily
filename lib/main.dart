@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_daily/agriplant/app.dart';
+import 'package:flutter_daily/namer/app.dart';
 import 'package:flutter_daily/navigation/01_anonymous.dart';
 import 'package:flutter_daily/navigation/02_namedRoute.dart';
 import 'package:flutter_daily/navigation/03_onGenerateRoute.dart';
@@ -23,5 +25,11 @@ void main() {
   // runApp(const TabBarApp02());
 
   // 待办事项例子
-  runApp(const ToDoApp());
+  // runApp(const ToDoApp());
+
+  // 农业/绿色植物App
+  runApp(const AgriplantApp());
+
+  // Flutter文档Namer App例子
+  // runApp(const NamerApp());
 }

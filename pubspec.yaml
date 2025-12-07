@@ -39,6 +39,14 @@ dependencies:
   # 可以滑动组件，这里使用左滑动删除
   flutter_slidable: ^3.1.2
 
+  google_fonts: ^6.3.0
+  flutter_iconly: ^1.0.2
+  badges: ^3.1.2
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
